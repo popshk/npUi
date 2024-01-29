@@ -1,0 +1,8 @@
+{
+  "system":"PA 3.0",
+  "modelName":"AddressGeneral",
+  "calledMethod":"getWarehouses",
+  "methodProperties": {
+    "CityRef":"8d5a980d-391c-11dd-90d9-001a92567626"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "apiKey": "yourKey",
+  "modelName": "InternetDocument",
+  "calledMethod": "getIncomingDocumentsByPhone",
+  "methodProperties": {
+    "DateFrom": "05.06.2023 00:00:00",
+    "DateTo": "30.01.2024 00:00:00",
+    "Page": 1,
+    "Limit": 100,
+    "iCounterparties": null
+  }
+}

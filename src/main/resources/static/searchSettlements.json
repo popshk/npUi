@@ -1,0 +1,9 @@
+{
+  "system":"PA 3.0",
+  "modelName":"Address",
+  "calledMethod":"searchSettlements",
+  "methodProperties": {
+    "CityName":"м.Київ",
+    "Limit":100,"Page":1
+  }
+}

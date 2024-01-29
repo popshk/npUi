@@ -1,0 +1,19 @@
+{
+  "apiKey": "yourKey",
+  "modelName": "AdditionalServiceGeneral",
+  "calledMethod": "save",
+  "methodProperties": {
+    "OrderType": "orderRedirecting",
+    "IntDocNumber": "20700493329407",
+    "Customer": "Recipient",
+    "ServiceType": "WarehouseWarehouse",
+    "RecipientWarehouse": "47402e89-e1c2-11e3-8c4a-0050568002cf",
+    "NoteAddressRecipient": null,
+    "Recipient": "5d3ed8d3-5b6f-11ed-a60f-48df37b921db",
+    "RecipientContactName": "Dmytro Popkov",
+    "RecipientPhone": "380634257901",
+    "PayerType": "Recipient",
+    "PaymentMethod": "Cash",
+    "Note": "Переадресація через Бізнес кабінет"
+  }
+}
