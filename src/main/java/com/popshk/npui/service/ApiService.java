@@ -60,7 +60,7 @@ public class ApiService {
     {
         List<OrderInfo> orders = getOrders();
         List<OrderInfo> wrongWarehouseNumberOrders = orders.stream().filter(x -> !x.warehouseNumber().equals("94")).toList();
-        JsonNode orderRedirectingBody = JsonReader.parseFile("src/main/resources/static/orderRedirecting.json");
+        JsonNode orderRedirectingBody = JsonReader.readJsonFile(appConfig.getOrderRedirecting());
         ((ObjectNode) orderRedirectingBody).put("apiKey",appConfig.getApiKey());
         wrongWarehouseNumberOrders.forEach(info ->{
 

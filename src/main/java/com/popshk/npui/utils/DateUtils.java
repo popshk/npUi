@@ -17,4 +17,3 @@ public class DateUtils {
         return lastMonthDateTime.format(formatter);
     }
 }
-

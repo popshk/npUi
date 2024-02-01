@@ -47,7 +47,7 @@ public class ApiRequests {
     }
 
     private JsonNode incomingDocumentsBody (){
-        JsonNode jsonNode = JsonReader.parseFile("src/main/resources/static/getIncomingDocuments.json");
+        JsonNode jsonNode = JsonReader.readJsonFile(appConfig.getIncomingDocuments());
         ((ObjectNode) jsonNode).put("apiKey",appConfig.getApiKey());
         ((ObjectNode) jsonNode.get("methodProperties")).put("DateFrom", DateUtils.customDateFromForJson(false));
         ((ObjectNode) jsonNode.get("methodProperties")).put("DateTo", DateUtils.customDateFromForJson(true));
